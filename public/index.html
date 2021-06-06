@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Shortly - create cool short urls</title>
 </head>
 
 <body>
-  <h1>Welcome to Shortly</h1>
-  <h2>Create cool short urls</h2>
-  <form method="POST" action="/url">
-    <label for="url">*</label>
-    <input type="text" name="url" id="url" placeholder="Enter URL">
-    <input type="text" name="shortName" id="short-name" placeholder="Enter a short name for the link">
-    <button type="submit">Submit</button>
+  <h1 class="main-title">Welcome to Shortly</h1>
+  <h2 class="secondary-title">Create cool short urls</h2>
+  <form method="POST" action="/url" class="form">
+    <input type="text" name="url" class="input" id="url" placeholder="Enter URL">
+    <input type="text" name="shortName" class="input" id="short-name" placeholder="Enter a short name for the link if you prefer">
+    <button type="submit" class="submit-btn">Create URL</button>
   </form>
 </body>
 
