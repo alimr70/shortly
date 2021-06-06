@@ -40,6 +40,18 @@ body {
   width: 40%;
 }
 
+@media (max-width: 800px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .form {
+    width: 95%;
+  }
+}
+
 .input,
 .submit-btn {
   margin: 1rem 0;
