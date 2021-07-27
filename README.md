@@ -22,7 +22,7 @@ npm run dev
 
 <hr>
 
-## If you want to try it live, [here](https://advanced-pomodoro.netlify.app/).
+## If you want to try it live, [here](https://shrly.herokuapp.com/).
 
 <hr>
 
