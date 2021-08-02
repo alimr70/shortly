@@ -6,6 +6,8 @@ A one page web application for creating short links. I made it with Express, Nan
 
 ## Preview
 
+![Preview](preview.gif)
+
 ## How To Install
 
 ### 1. Clone the project
